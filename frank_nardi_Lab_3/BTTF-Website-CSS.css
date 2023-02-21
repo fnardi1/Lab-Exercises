@@ -1,0 +1,54 @@
+/* An empty comment above a line is meant to denote elements that were not mentioned in class. (I'm not 100% sure which were and were not mentioned) */
+
+/* Local styler that edits both the h1 and h4 tags */
+.headings{
+    color: rgb(90, 200, 255);
+    font-family: "Impact", "Haettenschweiler", 'Arial', "sans-serif";
+    /*  */
+    text-shadow: 4px 2px black;
+    position: relative;
+    left: 30px;
+}
+
+/* Global styler that edits the font, font size, and border of all p elements */
+p{
+    font-family: "Impact", "Haettenschweiler", 'Arial', "sans-serif";
+    font-size: 20px;
+    /*  */
+    background-image: radial-gradient(yellow 25%, rgb(255, 85, 0) 75%);
+    border-style: solid;
+    border-color: rgb(90, 200, 255);
+    padding: 10px;
+    /*  */
+    transform: rotateY(25deg)
+}
+
+/* Local styler that gives a border to the video clip and styles it */
+.clip-one{
+    margin: auto;
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(90, 200, 255);
+    /*  */
+    border-radius: 10px;
+    position: relative;
+    width: 560px;
+    height: 315;
+    border-right: 30px;
+}
+
+/* Local styler that gives colors to the text in the table containing the yes and no prompts */
+.ans-yes{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(15, 115, 5);
+}
+.ans-no{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    
+}
+
+/* Makes the borders the color black */
+hr{
+    border-color: black;
+}
